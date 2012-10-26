@@ -36,3 +36,13 @@ imap <C-w> <ESC> :w <Return> i
 nmap <C-f> /
 vmap <C-f> <ESC> /
 imap <C-f> <ESC> /
+
+"OPEN IN NEW TAB
+nmap <C-o> :tabe 
+vmap <C-o> <ESC> :tabe 
+imap <C-o> <ESC> :tabe 
+
+"TAB NAVIGATION
+nmap <S-Tab> :bn <Return>
+vmap <S-Tab> <ESC> :bn <Return>
+imap <S-Tab> <ESC> :bn <Return>
