@@ -5,7 +5,12 @@ syntax on
 set number
 colorscheme slate
 
+"Use always system clipboard
 set clipboard=unnamed
+
+"Every buffer in a tab
+set tabpagemax=64
+tab ball
 
 "Gnome shortcuts -- BAD
 "source $VIMRUNTIME/mswin.vim
@@ -43,6 +48,6 @@ vmap <C-o> <ESC> :tabe
 imap <C-o> <ESC> :tabe 
 
 "TAB NAVIGATION
-nmap <S-Tab> :bn <Return>
-vmap <S-Tab> <ESC> :bn <Return>
-imap <S-Tab> <ESC> :bn <Return>
+nmap <S-Tab> :tabn <Return>
+vmap <S-Tab> <ESC> :tabn <Return>
+imap <S-Tab> <ESC> :tabn <Return>
