@@ -25,17 +25,17 @@ imap <C-v> <C-r><C-o>+
 "UNDO
 nmap <C-z> u
 vmap <C-z> u
-imap <C-z> <ESC> u i
+imap <C-z> <ESC>ui
 
 "SAVE (C-s works only in gvim)
-nmap <C-s> :w <Return>
-nmap <C-w> :w <Return>
+nmap <C-s> :w<Return>
+nmap <C-w> :w<Return>
  
-vmap <C-s> <ESC> :w <Return> v
-vmap <C-w> <ESC> :w <Return> v
+vmap <C-s> <ESC>:w<Return>v
+vmap <C-w> <ESC>:w<Return>v
 
-imap <C-s> <ESC> :w <Return> i
-imap <C-w> <ESC> :w <Return> i
+imap <C-s> <ESC>:w<Return>i
+imap <C-w> <ESC>:w<Return>i
 
 "FIND
 nmap <C-f> /
@@ -44,10 +44,10 @@ imap <C-f> <ESC> /
 
 "OPEN IN NEW TAB
 nmap <C-o> :tabe 
-vmap <C-o> <ESC> :tabe 
-imap <C-o> <ESC> :tabe 
+vmap <C-o> <ESC>:tabe 
+imap <C-o> <ESC>:tabe 
 
 "TAB NAVIGATION
-nmap <S-Tab> :tabn <Return>
-vmap <S-Tab> <ESC> :tabn <Return>
-imap <S-Tab> <ESC> :tabn <Return>
+nmap <S-Tab> :tabn<Return>
+vmap <S-Tab> <ESC>:tabn<Return>
+imap <S-Tab> <ESC>:tabn<Return>
