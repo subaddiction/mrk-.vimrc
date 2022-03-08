@@ -1,5 +1,6 @@
 set nocp
 filetype plugin on
+filetype indent on
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 syntax on
